@@ -11,6 +11,7 @@ public class Physical extends Purchase {
     public void calculatePP(double value, double plots) {
         this.value = value+(plots*3);
     }
+    @Override
     public double portion(){
         return this.value/plots;
     }

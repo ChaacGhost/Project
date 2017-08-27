@@ -1,14 +1,19 @@
 package fjn.classes;
 
 public abstract class Purchase {
-    String kindPerson, typePurchase;
-    double value, plots;
-    public void Purchase(){
+    private String kindPerson, typePurchase;
+    private double value, plots;
 
+    public void Purchase(){
+        kindPerson = "";
+        typePurchase = "";
+        value = 0;
+        plots = 0;
     }
     public abstract void calculatePA(double value);
     public abstract void calculatePP(double value, double plots);
     public abstract double portion();
+
     public void setKindPerson(String kindPerson){
         this.kindPerson = kindPerson;
     }
