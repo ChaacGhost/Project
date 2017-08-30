@@ -6,7 +6,6 @@ public class Physical extends Purchase {
     public void calculatePA(double value){
         setValue(value-5);
     }
-
     @Override
     public void calculatePP(double value, double plots) {
         setValue(value+(plots*3));

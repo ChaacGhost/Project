@@ -5,8 +5,8 @@ public abstract class Purchase {
     private double value, plots;
 
     public void Purchase(){
-        kindPerson = "";
-        typePurchase = "";
+        kindPerson = null;
+        typePurchase = null;
         value = 0;
         plots = 0;
     }
