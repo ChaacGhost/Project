@@ -4,15 +4,15 @@ public class Physical extends Purchase {
 
     @Override
     public void calculatePA(double value){
-        this.value = value-5;
+        setValue(value-5);
     }
 
     @Override
     public void calculatePP(double value, double plots) {
-        this.value = value+(plots*3);
+        setValue(value+(plots*3));
     }
     @Override
     public double portion(){
-        return this.value/plots;
+        return getValue()/getPlots();
     }
 }
