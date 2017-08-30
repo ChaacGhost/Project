@@ -1,0 +1,5 @@
+Herança e Poliformismo
+	Herança na POO, baseia-se basicamente no conteito próprio da palavra, algo que passa de alguém pra outrem ou de um lugar pra outrem, de forma generalizada. Por exemplo, um sistema que forneçe informações sobre um carro pode passar a atender mais tipos de carros, pois todos tem características em comum, como cor, número de rodas, modelo e por ai vai. Sendo assim, pode-se dizer que a herança servirá fundamentalmente para combater a redundância, já que se fossemos definir em todos os carros esses atributos individualmente, seria uma perca de tempo, tento em vista que poderíamos HERDAR essas informações genéricas de uma classe <carro>.
+	Polimorfismo é uma forma na qual funciona o conceito de herança. Significa muitas formas. Sua aplicação se dá ao fato de que um sistema deve se comportar diferentemente e de acordo com a necessidade do momento.
+
+-Geraldo César Cantelli  

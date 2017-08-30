@@ -1,0 +1,6 @@
+Métodos e sobrecarga de métodos
+	O método, basicamente é um membro da classe que implementa uma ação que pode ser executada por um objeto ou pela classe.
+	A sobrecarga de métodos é um conceito do polimorfismo que consiste basicamente em criar variações de um mesmo método, ou seja, a criação de dois ou mais métodoss com nomes igual em uma classe, contando que seus argumentos sejam diferentes para que seja feita a separação dos mesmos. 
+
+-Andrielle Azevedo de Paula
+-Geraldo César Cantelli
